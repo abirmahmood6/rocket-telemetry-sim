@@ -1,0 +1,8 @@
+random.uniform() - This function can be used to generate realistic values for the virtual sensors like - temperature, velocity, altitude
+
+return round(random.uniform(100,1000),2) - gives us random value between float 100, 1000.   round(...,..., 2) makes it 2 decimal place for clean output
+
+
+f'string - print(f'Rocket Altitude: {altitude} m \n' )
+    f means format, {} is where variables go
+    Without f', it will print everything as a string and not call in the {variable}
